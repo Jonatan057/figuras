@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Geométrica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Menú de Figuras Geométricas</h1>
+
+  <select id="menu" onchange="mostrarFormulario()">
+    <option value="">Seleccione una opción</option>
+    <option value="cuadrado">1. Cuadrado</option>
+    <option value="rectangulo">2. Rectángulo</option>
+    <option value="triangulo">3. Triángulo</option>
+    <option value="esfera">4. Esfera</option>
+    <option value="vector">5. Vector</option>
+  </select>
+
+  <div id="formulario"></div>
+
+  <hr>
+  <h2>Vector de 10 números</h2>
+  <input type="text" id="numeros" placeholder="Ej: 1,2,3,4,5,6,7,8,9,10">
+  <button onclick="invertirVector()">Invertir</button>
+  <p id="resultadoVector"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>.4369
+7+/*
